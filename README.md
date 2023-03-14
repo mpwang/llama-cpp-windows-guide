@@ -47,11 +47,11 @@ make
 
 On the right hand side panel:
 
-    right click file `quantize.vcxproj` -> select build
+    right click file quantize.vcxproj -> select build
     this output .\Debug\quantize.exe
 
 
-    right click `ALL_BUILD.vcxproj` -> select build
+    right click ALL_BUILD.vcxproj -> select build
     this output .\Debug\llama.exe
 
 ## create a python virtual environment
