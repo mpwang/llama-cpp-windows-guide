@@ -58,7 +58,8 @@ On the right hand side panel:
 back to the powershell termimal, cd to lldma.cpp directory, suppose `LLaMA model`s have been download to models directory
 
 ```powershell
-python -m venv
+python -m venv venv
+
 .\venv\Scripts\pip.exe install torch torchvision torchaudio sentencepiece numpy
 
 .\venv\Scripts\python.exe convert-pth-to-ggml.py models/7B/ 1
